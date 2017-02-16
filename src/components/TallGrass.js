@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 
 const TallGrass = (props) => {
-
+  let wildPokemonImage = (
+    <div id="wild-pokemon-image" className="wild-pokemon">
+      {props.wildPokemon}
+    </div>
+  )
   return(
-    <div className="tall-grass small-6 columns">
+    <div className="tall-grass small-10 small-offset-1 columns">
       <div className="row">
-        <div className="wild-pokemon small-6 offset-3 columns">
-          {props.wildPokemon}
-          </div> 
+        <div className="small-4 small-offset-4 columns">
+          {wildPokemonImage}
+        </div>
       </div>
     </div>
   )

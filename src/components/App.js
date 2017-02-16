@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import CapturePhaseBoard from './CapturePhaseBoard'
-// import CapturePhaseBenches from './CapturePhaseBenches'
 
 class App extends Component {
   constructor(props) {
@@ -12,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div >
+        <div>
           <CapturePhaseBoard />
         </div>
       </div>
