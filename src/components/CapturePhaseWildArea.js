@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TallGrass from './TallGrass';
+import CapturePhaseMenu from './CapturePhaseMenu';
 
 class CapturePhaseWildArea extends Component {
   constructor(props) {
@@ -13,8 +14,8 @@ class CapturePhaseWildArea extends Component {
           <div className="row">
             <TallGrass wildPokemon={"POKEMONS"} />
           </div>
+          <CapturePhaseMenu />
         </div>
-
       </div>
     );
   }
