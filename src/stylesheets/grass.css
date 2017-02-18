@@ -1,14 +1,8 @@
-.wild-container {
-  padding: 10px;
-}
-
 .wild-area {
   background-image: url("/images/grass.jpg");
-  margin-left: 20px;
-  margin-right: 20px;
   border: 2px solid black;
   border-radius: 10px;
-  padding: 10px;
+  padding: 30px;
 }
 
 .wild-pokemon {
