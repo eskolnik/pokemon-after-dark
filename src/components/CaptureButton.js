@@ -8,10 +8,12 @@ const CaptureButton = (props) => {
     "masterball": "circle"
   }
   let iconClass=`ball-icon fa fa-2x fa-${captureIcons[props.icon]}`
+  // let buttonClass= props.capture ? "capture-button" : "run-button"
+  let buttonClass = "capture-button"
 
   return(
     <div className="small-5 columns">
-      <div className="capture-button">
+      <div className={buttonClass}>
         <div className="row">
           <div className="small-3 columns">
             <i className={iconClass} aria-hidden="true"></i>

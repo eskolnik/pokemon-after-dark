@@ -3,14 +3,17 @@ import CaptureButton from './CaptureButton';
 
 const CapturePhaseMenu = (props) => {
   return(
-    <div className="capture-menu">
+    <div className="capture-menu small-10 small-offset-1 columns end">
       <div className="row">
-        <div className="small-1 columns"/>
         <CaptureButton text={"Poke Ball"} icon={"pokeball"} />
         <CaptureButton text={"Great Ball"} icon={"greatball"} />
       </div>
       <div className="row">
-        <div className="small-1 columns"/>
+        <div className="capture-button-middle small-4 small-offset-4  end columns">
+          <div id="run-button">RUN</div>
+        </div>
+      </div>
+      <div className="row">
         <CaptureButton text={"Ultra Ball"} icon={"ultraball"} />
         <CaptureButton text={"Master Ball"} icon={"masterball"} />
       </div>

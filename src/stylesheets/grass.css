@@ -32,10 +32,23 @@
   background-color: steelblue;
   border-radius: 15px;
 }
+
+#run-button{
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+.capture-button-middle {
+  /*float: left;*/
+  /*position: absolute;*/
+}
+
 .capture-button-text {
-  padding-top: 5px;
+  padding-top: 9px;
 }
 .ball-icon {
   text-align: center;
   padding-left: 10px;
+  padding-top: 5px;
 }

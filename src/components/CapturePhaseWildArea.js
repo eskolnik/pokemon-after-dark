@@ -14,7 +14,9 @@ class CapturePhaseWildArea extends Component {
           <div className="row">
             <TallGrass wildPokemon={"POKEMONS"} />
           </div>
-          <CapturePhaseMenu />
+          <div className="row">
+            <CapturePhaseMenu />
+          </div>
         </div>
       </div>
     );
