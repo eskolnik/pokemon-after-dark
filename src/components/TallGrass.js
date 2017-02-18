@@ -8,11 +8,7 @@ const TallGrass = (props) => {
   )
   return(
     <div className="tall-grass small-10 small-offset-1 columns">
-      <div className="row">
-        <div className="small-4 small-offset-4 columns">
-          {wildPokemonImage}
-        </div>
-      </div>
+      {wildPokemonImage}
     </div>
   )
 }

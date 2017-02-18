@@ -1,21 +1,27 @@
-import React, { Component } from 'react';
+import React from 'react';
 import CaptureButton from './CaptureButton';
 
 const CapturePhaseMenu = (props) => {
   return(
-    <div className="capture-menu small-10 small-offset-1 columns end">
+    <div className="capture-menu columns">
       <div className="row">
-        <CaptureButton text={"Poke Ball"} icon={"pokeball"} />
-        <CaptureButton text={"Great Ball"} icon={"greatball"} />
-      </div>
-      <div className="row">
-        <div className="capture-button-middle small-4 small-offset-4  end columns">
-          <div id="run-button">RUN</div>
+        <div className="medium-6 columns">
+          <CaptureButton text={"Pokeball"} icon={"pokeball"} />
+          <CaptureButton text={"Ultra Ball"} icon={"ultraball"} />
+        </div>
+        <div className="medium-6 columns">
+          <CaptureButton text={"Great Ball"} icon={"greatball"} />
+          <CaptureButton text={"Master Ball"} icon={"masterball"} />
         </div>
       </div>
       <div className="row">
-        <CaptureButton text={"Ultra Ball"} icon={"ultraball"} />
-        <CaptureButton text={"Master Ball"} icon={"masterball"} />
+        <div className="small-4 small-centered columns">
+          <div className="capture-button run-button">
+            <div className="capture-button-text">
+              RUN
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
