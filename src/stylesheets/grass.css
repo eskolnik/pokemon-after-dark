@@ -48,3 +48,31 @@
 .run-button .capture-button-text {
   font-size: 15px;
 }
+
+.capture-phase-benches {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.capture-phase-bench {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.capture-bench-player {
+  border: 1px solid black;
+  border-radius: 60%;
+  height: 60px;
+  width: 60px;
+  background-color: blue;
+}
+
+.capture-bench-pokemon {
+  border: 1px solid black;
+  border-radius: 20%;
+  height: 60px;
+  background-color: grey;
+}
