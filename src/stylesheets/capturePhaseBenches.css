@@ -1,0 +1,52 @@
+.capture-phase-benches {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.capture-phase-bench {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+  display: inline-flex;
+}
+
+.capture-phase-bench-slots {
+  display: flex;
+  flex-grow: 9;
+
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+
+.capture-bench-player {
+  border: 1px solid black;
+  border-radius: 60%;
+  height: 60px;
+  width: 60px;
+  background-color: blue;
+  display: flex;
+}
+
+.capture-bench-player-text {
+  color: white;
+  margin: auto;
+}
+
+.capture-bench-pokemon {
+  border: 1px solid black;
+  border-radius: 20px;
+  height: 60px;
+  width: 60px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: grey;
+  flex-grow: 0;
+  text-align: center;
+}

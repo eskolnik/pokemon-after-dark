@@ -1,4 +1,5 @@
-@import 'stylesheets/grass.css';
+@import 'stylesheets/tallGrass.css';
+@import 'stylesheets/capturePhaseBenches.css';
 
 body {
   margin: 0;
@@ -13,4 +14,8 @@ body {
 
 body {
   font-family: "Gameboy";
+}
+
+.capture-phase-board {
+  display: flex;
 }
