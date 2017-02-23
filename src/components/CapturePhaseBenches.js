@@ -3,7 +3,7 @@ import CapturePhaseBench from './CapturePhaseBench';
 
 const CapturePhaseBenches = (props) => {
   let benches = props.benches.map((bench) => {
-    return( 
+    return(
       <CapturePhaseBench
         player={bench.player}
         slots={bench.slots}
@@ -11,7 +11,7 @@ const CapturePhaseBenches = (props) => {
     )
   })
   return(
-    <div className="capture-phase-benches small-6 columns">
+    <div className="capture-phase-benches">
       {benches}
     </div>
   )

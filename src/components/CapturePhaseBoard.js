@@ -7,15 +7,15 @@ class CapturePhaseBoard extends Component {
     super(props);
     this.state={
       benches: [
-        {player: "Ezra", slots: ["a", "b", "c", "d", "e", "f"]},
-        {player: "Christina", slots: ["a", "b", "c", "d", "e", "f"]},
+        {player: "Ezra Skolnik", slots: ["a", "b", "c", "d", "e", "f"]},
+        {player: "Christina Koller", slots: ["a", "b", "c", "d", "e", "f"]},
       ]
     }
   }
 
   render() {
     return (
-      <div className="row" >
+      <div className="capture-phase-board" >
         <CapturePhaseWildArea />
         <CapturePhaseBenches benches={this.state.benches}/>
       </div>

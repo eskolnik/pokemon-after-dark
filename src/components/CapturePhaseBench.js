@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import CapturePhasePokemon from './CapturePhasePokemon';
+
 
 class CapturePhaseBench extends Component {
   constructor(props) {
@@ -8,24 +10,22 @@ class CapturePhaseBench extends Component {
   render() {
     let slots = this.props.slots.map((slot) => {
       return(
-        <div className="small-2 columns">
-          <div className="capture-bench-pokemon">
-            {slot}
-          </div>
-        </div>);
+        <CapturePhasePokemon name={slot} />
+      );
     })
+
+    let splitName = this.props.player.split(" ")
+    let playerName = splitName[0][0]+splitName[1][0]
 
     return(
       <div className="capture-phase-bench">
-        <div className="row">
-          <div className="small-2 columns">
-            <div className="capture-bench-player" />
+        <div className="capture-bench-player">
+          <div className="capture-bench-player-text">
+            {playerName}
           </div>
-          <div className="small-10 columns">
-            <div className="row capture-phase-bench-slots">
-              {slots}
-            </div>
-          </div>
+        </div>
+        <div className="capture-phase-bench-slots">
+          {slots}
         </div>
       </div>
     )
